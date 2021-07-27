@@ -1,0 +1,18 @@
+.userStatus {
+  font-weight: 400;
+}
+
+.statusWrapper {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.status_header {
+  font-weight: 500;
+}
+
+.inputSubtitle {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 5px;
+}

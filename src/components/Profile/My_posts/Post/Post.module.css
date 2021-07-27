@@ -1,0 +1,29 @@
+.user_post_item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.user_post_content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user_post_content > div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #3f51b5;
+  margin-right: 10px;
+}
+
+.user_post_item > span {
+  display: block;
+}
+
+.like_img {
+  width: 12px;
+  margin-right: 10px;
+  margin-left: 20px;
+}

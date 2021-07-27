@@ -1,0 +1,22 @@
+.App {
+  background: lightblue;
+}
+
+.app-wrapper {
+  width: 100%;
+  display: grid;
+
+  grid-template-areas: 
+  'header header'
+  'nav content';
+
+  gap: 10px;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+}
+
+.app_wrapper_content {
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+}

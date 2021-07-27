@@ -1,0 +1,43 @@
+.user_posts {
+  margin: 0 auto;
+  padding: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user_posts_header {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.textarea {
+  width: 100%;
+  height: 25px;
+  color: initial;
+  background-color: white;
+  font: 400 13.3333px 'Roboto';
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(169, 169, 169);
+  resize: none;
+}
+
+.postButton {
+  margin-top: 10px;
+  border: none;
+  font: inherit;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #fff;
+  background-color: #3f51b5;
+  width: 75px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.post_form {
+  margin-bottom: 20px;
+}

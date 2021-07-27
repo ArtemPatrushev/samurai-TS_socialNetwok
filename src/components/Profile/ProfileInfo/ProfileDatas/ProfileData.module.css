@@ -1,0 +1,45 @@
+.user_info {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.userLogin {
+  font-size: 20px;
+}
+
+.user_info_text {
+  margin-top: 30px;
+}
+
+.user_info_text > p {
+  font-size: 14px;
+}
+
+.formSummaryError {
+  border: 2px solid red;
+  padding: 5px;
+  color: red;
+}
+
+.user_info_text_label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.user_info_text_label span {
+  font-weight: normal;
+}
+
+.form_button {
+  margin-top: 10px;
+  border: none;
+  font: inherit;
+  font-weight: lighter;
+  color: #fff;
+  background-color: #3f51b5;
+  width: 75px;
+  border-radius: 20px;
+  cursor: pointer;
+}

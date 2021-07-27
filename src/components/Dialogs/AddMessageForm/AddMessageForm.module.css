@@ -1,0 +1,33 @@
+.dialogForm {
+  display: flex;
+  margin-top: 20px;
+}
+
+.message_button {
+  align-self: flex-end;
+  height: 20px;
+  margin-top: 10px;
+  border: none;
+  font: inherit;
+  font-weight: lighter;
+  color: #fff;
+  background-color: #3f51b5;
+  width: 75px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.textarea {
+  margin-right: 20px;
+  margin-top: 25px;
+  width: auto;
+  height: 25px;
+  color: initial;
+  background-color: white;
+  font: 400 13.3333px 'Roboto';
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(169, 169, 169);
+  resize: none;
+}
